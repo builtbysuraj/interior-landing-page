@@ -2,7 +2,7 @@ import { SERVICES } from '../constants'
 
 export default function Services() {
   return (
-    <section className='my-20'>
+    <section className='my-20' id='services'>
       <div>
         <div className='flex items-center gap-4 mb-6'>
           <div className='border-b border-primary w-14'></div>
@@ -20,7 +20,7 @@ export default function Services() {
         {SERVICES.map((item, idx) => (
           <div
             key={idx}
-            className='flex flex-col justify-between border-2 border-[#E6D8CC] mt-20 p-10 md:min-h-[580px] min-h-[400px]'
+            className='flex flex-col justify-between border-2 border-gray-400 mt-20 p-10 md:min-h-[580px] min-h-[400px]'
           >
             <div>
               <img src={item.icon} alt={item.title} />
@@ -36,6 +36,8 @@ export default function Services() {
           </div>
         ))}
       </div>
+      {/* <hr className='my-20 border-gray-400' /> */}
+      <hr className='my-20 text-[#D9D9D6]' />
     </section>
   )
 }

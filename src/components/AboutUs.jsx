@@ -2,7 +2,7 @@ import { Image } from '../utils/images'
 
 export default function AboutUs() {
   return (
-    <section className='mx-auto my-20'>
+    <section className='mx-auto my-20' id='about-us'>
       <div className='flex items-center justify-between gap-10 flex-col lg:flex-row'>
         <div className=' max-w-[600px] flex-1'>
           <div className='flex items-center gap-4 mb-6'>
@@ -21,15 +21,20 @@ export default function AboutUs() {
               to reality
             </h2>
             <p className='font-outfit text-textLight mb-6 font-light'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              fringilla dui amet faucibus nam. Erat id laoreet posuere etiam
-              morbi.
+              Bringing Your Vision to Life At Center for human habitat, we are
+              dedicated to transforming your ideas into beautifully crafted
+              spaces. From concept to completion, we strive to create homes that
+              reflect your personality and lifestyle.
             </p>
             <p className='font-outfit text-textLight font-light'>
-              Tempor dolor elementum tellus non ipsum faucibus. Justo, magna
-              mauris posuere auctor justo. Habitant proin aliquet volutpat leo
-              ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc.
-              Faucibus sit odio bibendum lobortis diam.
+              We blend innovative design with practical solutions, ensuring
+              every detail is tailored to your unique needs. Our team of
+              experienced professionals is committed to delivering exceptional
+              results, making your dream home a reality. With a focus on
+              quality, creativity, and sustainability, we take pride in building
+              spaces that are not only aesthetically pleasing but also
+              functional and enduring. Let us help you create a home that you
+              will cherish for years to come.
             </p>
           </div>
         </div>

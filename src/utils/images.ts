@@ -3,6 +3,7 @@ import aboutUs2 from '@/assets/about-us-2.png'
 import architectsPlanning from '@/assets/architects-planning.svg'
 import arrowIcon from '@/assets/arrow-icon.svg'
 import burgerMenu from '@/assets/burger-menu.svg'
+import chhLogo from '@/assets/chh.png'
 import gallery1 from '@/assets/gallery-1.png'
 import gallery2 from '@/assets/gallery-2.png'
 import gallery3 from '@/assets/gallery-3.png'
@@ -26,4 +27,5 @@ export const Image = {
   RenovationRemodelling: renovationRemodelling,
   InteriorDesigns: interiorDesigns,
   ArchitectsPlanning: architectsPlanning,
+  ChhLogo: chhLogo,
 }

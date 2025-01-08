@@ -19,7 +19,18 @@ export default function Metrics() {
           </span>
         </div>
         <div className='flex items-center gap-3'>
-          <span className='font-playfairDisplay text-5xl md:text-6xl'>459</span>
+          <span className='font-playfairDisplay text-5xl md:text-6xl'>20</span>
+          <span className='flex items-center mt-3 -ml-3 gap-2'>
+            <p className='font-playfairDisplay text-5xl md:text-6xl'>+</p>
+            <p className='font-outfit text-textDark text-sm mt-2'>
+              DEDICTED PROFESSIONALS
+            </p>
+          </span>
+        </div>
+        <div className='flex items-center gap-3'>
+          <span className='font-playfairDisplay text-5xl md:text-6xl'>
+            154
+          </span>
           <p className='font-outfit text-textDark text-sm mt-5'>
             {' '}
             TOTAL VISITORS

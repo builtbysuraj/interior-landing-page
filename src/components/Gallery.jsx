@@ -2,7 +2,7 @@ import { Image } from '../utils/images'
 
 export default function Gallery() {
   return (
-    <>
+    <section id='gallery'>
       <div className='flex items-center gap-4 mb-6'>
         <div className='border-b border-primary w-14'></div>
         <p className='font-outfit text-primary text-xs font-semibold tracking-widest'>
@@ -30,15 +30,17 @@ export default function Gallery() {
               earum ratione asperiores, fugiat labore reprehenderit architecto
               aliquid sapiente non repellendus!
             </p>
-            <a
+            {/* <a
               className='flex-end cursor-pointer text-primary text-right text-xs mt-2 block'
               to='#'
             >
               ...show more
-            </a>
+            </a> */}
           </div>
         </div>
-        <hr class='my-5 text-[#D9D9D6]'></hr>
+        {/* <hr className='my-5 border-gray-400' /> */}
+        <hr className='my-20 text-[#D9D9D6]' />
+
         {/* Item 2 */}
         <div className='flex flex-col items-center gap-10 md:flex-row'>
           <div>
@@ -50,18 +52,19 @@ export default function Gallery() {
               earum ratione asperiores, fugiat labore reprehenderit architecto
               aliquid sapiente non repellendus!
             </p>
-            <a
+            {/* <a
               className='flex-end cursor-pointer text-primary text-right text-xs mt-2 block'
               to='#'
             >
               ...show more
-            </a>
+            </a> */}
           </div>
           <div>
             <img src={Image.Gallery1} alt='' />
           </div>
         </div>
-        <hr class='my-5 text-[#D9D9D6]'></hr>
+        {/* <hr className='my-5 border-gray-400' /> */}
+        <hr className='my-20 text-[#D9D9D6]' />
 
         {/* Item 3 */}
         <div className='flex flex-col items-center gap-10 md:flex-row'>
@@ -77,16 +80,17 @@ export default function Gallery() {
               earum ratione asperiores, fugiat labore reprehenderit architecto
               aliquid sapiente non repellendus!
             </p>
-            <a
+            {/* <a
               className='flex-end cursor-pointer text-primary text-right text-xs mt-2 block'
               to='#'
             >
               ...show more
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
-      <hr class='my-24 text-[#D9D9D6]'></hr>
-    </>
+      {/* <hr className='my-16 border-gray-400' /> */}
+      <hr className='my-20 text-[#D9D9D6]' />
+    </section>
   )
 }
