@@ -1,3 +1,4 @@
+import abhi from '@/assets/abhi.jpg'
 import aboutUs1 from '@/assets/about-us-1.png'
 import aboutUs2 from '@/assets/about-us-2.png'
 import architectsPlanning from '@/assets/architects-planning.svg'
@@ -28,4 +29,5 @@ export const Image = {
   InteriorDesigns: interiorDesigns,
   ArchitectsPlanning: architectsPlanning,
   ChhLogo: chhLogo,
+  Abhi: abhi,
 }

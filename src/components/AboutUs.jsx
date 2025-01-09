@@ -3,7 +3,8 @@ import { Image } from '../utils/images'
 export default function AboutUs() {
   return (
     <section className='mx-auto my-20' id='about-us'>
-      <div className='flex items-center justify-between gap-10 flex-col lg:flex-row'>
+      {/* gap-10 */}
+      <div className='flex items-center justify-between gap-4 flex-col lg:flex-row'>
         <div className=' max-w-[600px] flex-1'>
           <div className='flex items-center gap-4 mb-6'>
             <div className='border-b border-primary w-14'></div>
@@ -38,13 +39,18 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-        <div className='flex gap-4 max-w-[600px]'>
+        {/* max-w-[600px] */}
+        <div className='flex gap-4 max-w-[400px]'>
           <div className=''>
-            <img src={Image.AboutUs1} alt='' className='flex-1 mb-[-40px]' />
+            <img
+              src={Image.Abhi}
+              alt=''
+              className='flex-1 mb-[-40px] object-contain '
+            />
           </div>
-          <div className=''>
+          {/* <div className=''>
             <img src={Image.AboutUs2} alt='' className='flex-1 mt-9' />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
