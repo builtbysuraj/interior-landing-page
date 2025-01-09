@@ -14,7 +14,7 @@ export default function Metrics() {
           <span className='flex items-center mt-3 -ml-3 gap-2'>
             <p className='font-playfairDisplay text-5xl md:text-6xl'>+</p>
             <p className='font-outfit text-textDark text-sm mt-2'>
-              YEARS OF EXPERIENCE IN THE INDUSTRY
+              YEARS OF EXPERIENCE IN THE INDUSTRY (Since 2007)
             </p>
           </span>
         </div>
@@ -37,7 +37,8 @@ export default function Metrics() {
           </p>
         </div> */}
       </div>
-      <hr className='mt-20 text-[#D9D9D6]' />
+      {/* <hr className='mt-20 text-hrColor' /> */}
+      <hr className='my-20 border-gray-300' />
     </section>
   )
 }

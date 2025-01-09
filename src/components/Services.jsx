@@ -37,7 +37,7 @@ export default function Services() {
         ))}
       </div>
       {/* <hr className='my-20 border-gray-400' /> */}
-      <hr className='my-20 text-[#D9D9D6]' />
+      <hr className='my-20 border-gray-300' />
     </section>
   )
 }

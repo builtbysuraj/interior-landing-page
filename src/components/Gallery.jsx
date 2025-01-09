@@ -19,16 +19,19 @@ export default function Gallery() {
         {/* Item 1 */}
         <div className='flex flex-col items-center gap-10 md:flex-row mt-20'>
           <div>
-            <img src={Image.Gallery1} alt='' className='min-w-[280px]' />
+            <img
+              src={Image.Gallery1}
+              alt=''
+              className='min-w-[280px] rounded-md'
+            />
           </div>
           <div className=''>
             <h2 className='font-playfairDisplay text-4xl md:text-5xl font-normal py-5 '>
-              Luxury Hotel Renovation
+              Renovation & Remodelling
             </h2>
             <p className='font-outfit text-lg font-light max-w-[700px]'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              earum ratione asperiores, fugiat labore reprehenderit architecto
-              aliquid sapiente non repellendus!
+              We transform your existing spaces with creative renovations and
+              remodeling solutions, enhancing both aesthetics and functionality.
             </p>
             {/* <a
               className='flex-end cursor-pointer text-primary text-right text-xs mt-2 block'
@@ -38,19 +41,19 @@ export default function Gallery() {
             </a> */}
           </div>
         </div>
-        {/* <hr className='my-5 border-gray-400' /> */}
-        <hr className='my-20 text-[#D9D9D6]' />
+        <hr className='my-5 border-gray-300' />
+        {/* <hr className='my-20 text-hrColor' /> */}
 
         {/* Item 2 */}
         <div className='flex flex-col items-center gap-10 md:flex-row'>
           <div>
             <h2 className='font-playfairDisplay text-4xl md:text-5xl font-normal py-5'>
-              Luxury Hotel Renovation
+              Architects & Planning
             </h2>
             <p className='font-outfit text-lg font-light max-w-[700px]'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              earum ratione asperiores, fugiat labore reprehenderit architecto
-              aliquid sapiente non repellendus!
+              Our architects provide innovative designs and strategic planning,
+              ensuring functional, aesthetically pleasing spaces tailored to
+              your needs.
             </p>
             {/* <a
               className='flex-end cursor-pointer text-primary text-right text-xs mt-2 block'
@@ -60,25 +63,29 @@ export default function Gallery() {
             </a> */}
           </div>
           <div>
-            <img src={Image.Gallery1} alt='' />
+            <img
+              src={Image.Gallery2}
+              alt=''
+              className='rounded-md max-w-[550px]'
+            />
           </div>
         </div>
-        {/* <hr className='my-5 border-gray-400' /> */}
-        <hr className='my-20 text-[#D9D9D6]' />
+        <hr className='my-5 border-gray-300' />
+        {/* <hr className='my-20 text-hrColor' /> */}
 
         {/* Item 3 */}
         <div className='flex flex-col items-center gap-10 md:flex-row'>
           <div>
-            <img src={Image.Gallery1} alt='' />
+            <img src={Image.Gallery3} alt='' className='rounded-md' />
           </div>
           <div>
             <h2 className='font-playfairDisplay text-4xl md:text-5xl font-normal py-5 '>
-              Luxury Hotel Renovation
+              Interior Designs
             </h2>
             <p className='font-outfit text-lg font-light max-w-[700px]'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              earum ratione asperiores, fugiat labore reprehenderit architecto
-              aliquid sapiente non repellendus!
+              We craft personalized interior designs that reflect your style,
+              optimize space, and enhance comfort, blending beauty with
+              functionality.
             </p>
             {/* <a
               className='flex-end cursor-pointer text-primary text-right text-xs mt-2 block'
@@ -89,8 +96,8 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-      {/* <hr className='my-16 border-gray-400' /> */}
-      <hr className='my-20 text-[#D9D9D6]' />
+      <hr className='my-20 border-gray-300' />
+      {/* <hr className='my-20 text-hrColor' /> */}
     </section>
   )
 }

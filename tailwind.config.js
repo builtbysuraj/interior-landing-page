@@ -19,7 +19,8 @@ export default {
         textLight: '#444444',
         // bgPrimary: '#E9E9E9',
         bgPrimary: '#f7f7f7',
-        bgSecondary: '#bf8f55'
+        bgSecondary: '#bf8f55',
+        hrColor: '#D9D9D6',
       },
       keyframes: {
         'accordion-down': {

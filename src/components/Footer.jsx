@@ -19,8 +19,8 @@ export default function Footer() {
                 Bangalore, India
               </p>
               <p className=' text-textDark font-light text-sm font-outfit'>
-                962 Fifth Avenue Str, 3rd Floor-Trump Building NY 10006, United
-                State.
+                #280, Basement Floor, 5th Main Rd, Sector 6, HSR Layout,
+                Bengaluru, Karnataka 560102
               </p>
             </div>
           </a>
@@ -51,7 +51,7 @@ export default function Footer() {
         {/* Right */}
         <ContactForm />
       </div>
-      <hr className='my-20 text-[#D9D9D6]' />
+      <hr className='my-20 border-gray-300' />
 
       <p className='text-center text-xs'>
         © 2025 CHH - Architectural consultant. Made with ❤️ in Bangalore

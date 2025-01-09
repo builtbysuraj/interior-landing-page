@@ -5,7 +5,8 @@ export default function AboutUs() {
     <section className='mx-auto my-20' id='about-us'>
       {/* gap-10 */}
       <div className='flex items-center justify-between gap-4 flex-col lg:flex-row'>
-        <div className=' max-w-[600px] flex-1'>
+        {/* max-w-[600px] */}
+        <div className=' max-w-[800px] flex-1'>
           <div className='flex items-center gap-4 mb-6'>
             <div className='border-b border-primary w-14'></div>
             <p className='font-outfit text-primary text-xs font-semibold tracking-widest'>
@@ -45,7 +46,7 @@ export default function AboutUs() {
             <img
               src={Image.Abhi}
               alt=''
-              className='flex-1 mb-[-40px] object-contain '
+              className='flex-1 mb-[-40px] object-contain rounded-md'
             />
           </div>
           {/* <div className=''>
