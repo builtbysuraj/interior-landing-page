@@ -27,7 +27,7 @@ export default function Metrics() {
             </p>
           </span>
         </div>
-        <div className='flex items-center gap-3'>
+        {/* <div className='flex items-center gap-3'>
           <span className='font-playfairDisplay text-5xl md:text-6xl'>
             154
           </span>
@@ -35,7 +35,7 @@ export default function Metrics() {
             {' '}
             TOTAL VISITORS
           </p>
-        </div>
+        </div> */}
       </div>
       <hr className='mt-20 text-[#D9D9D6]' />
     </section>

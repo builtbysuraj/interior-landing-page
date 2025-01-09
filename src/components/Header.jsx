@@ -1,10 +1,10 @@
+import { useState } from 'react'
+import { Link } from 'react-scroll'
 import { NAV_LINKS } from '../constants'
 import { Image } from '../utils/images'
-import { Button } from './ui/button'
-
-import { Dialog, DialogContent, DialogHeader, DialogTrigger } from './ui/dialog'
-
 import ContactForm from './ContactForm'
+import { Button } from './ui/button'
+import { Dialog, DialogContent, DialogHeader, DialogTrigger } from './ui/dialog'
 import {
   Drawer,
   DrawerClose,
@@ -13,29 +13,43 @@ import {
   DrawerTrigger,
 } from './ui/drawer'
 
-function NavLinks() {
+function NavLinks({ handleDrawerClose }) {
   return (
     <ul className='hidden md:flex items-center gap-3'>
       {NAV_LINKS.map((item) => (
-        <a href={item.url} key={item.name}>
+        <Link
+          to={item.url.substring(1)} // Remove leading '#'
+          smooth={true} // Enable smooth scrolling
+          duration={500} // Set scroll duration (milliseconds)
+          offset={-80} // Adjust scroll offset if needed (e.g., for fixed header)
+          // onClick={handleDrawerClose}
+          key={item.name}
+          // easing='easeInOutQuad' // Use easeInOutQuad easing
+          // or
+          // easing='easeInOutCubic'
+          // easing='easeInOutSine'
+          href={item.url}
+        >
           <li className='px-4 cursor-pointer font-outfit'>{item.name}</li>
-        </a>
+        </Link>
       ))}
     </ul>
   )
 }
-// Change header and move the company name to the about us and only keep the logo
+
 export default function Header() {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false) // State to track drawer visibility
+
+  const handleDrawerOpen = () => setIsDrawerOpen(true)
+  const handleDrawerClose = () => setIsDrawerOpen(false)
+
+  // Get the current scroll position before opening the drawer (optional)
+  const scrollYBeforeOpen = window.scrollY || window.pageYOffset // Polyfill for older browsers
+
   return (
     <header className='flex justify-between items-center  mt-5 px-5'>
       <div className='cursor-pointer flex items-center py-1'>
-        <img
-          src={Image.ChhLogo}
-          alt='Logo'
-          width={58}
-          // min-w-24
-          className=''
-        />
+        <img src={Image.ChhLogo} alt='Logo' width={58} className='' />
         <div className='hidden lg:block'>
           <p className='text-primary text-[1.25rem] font-bold'>
             CENTER FOR HUMAN HABITAT
@@ -50,8 +64,8 @@ export default function Header() {
           <NavLinks />
           <div className='block md:hidden'>
             <div className='block md:hidden'>
-              <Drawer>
-                <DrawerTrigger>
+              <Drawer open={isDrawerOpen} onClose={handleDrawerClose}>
+                <DrawerTrigger onClick={handleDrawerOpen}>
                   <img
                     src={Image.BurgerMenu}
                     alt='BurgerMenu'
@@ -62,16 +76,27 @@ export default function Header() {
                 <DrawerContent>
                   <ul className='flex flex-col gap-3 p-4'>
                     {NAV_LINKS.map((item) => (
-                      <a key={item.name} href={item.url}>
+                      <Link
+                        to={item.url.substring(1)} // Remove leading '#'
+                        smooth={true} // Enable smooth scrolling
+                        duration={500} // Set scroll duration (milliseconds)
+                        offset={-80} // Adjust scroll offset if needed (e.g., for fixed header)
+                        onClick={handleDrawerClose}
+                        key={item.name}
+                        href={item.url}
+                      >
                         <li className='px-4 cursor-pointer font-outfit'>
                           {item.name}
                         </li>
-                      </a>
+                      </Link>
                     ))}
                   </ul>
                   <DrawerFooter>
                     <DrawerClose>
-                      <button className='text-xs text-white bg-primary px-4 py-2 rounded font-bold'>
+                      <button
+                        className='text-xs text-white bg-primary px-4 py-2 rounded font-bold'
+                        onClick={handleDrawerClose}
+                      >
                         Close
                       </button>
                     </DrawerClose>

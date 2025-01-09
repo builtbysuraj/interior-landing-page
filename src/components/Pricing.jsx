@@ -7,7 +7,7 @@ import {
 
 export default function Pricing() {
   return (
-    <section id='pricing font-outfit'>
+    <section id='pricing'>
       <div className='flex items-center gap-4 mb-6'>
         <div className='border-b border-primary w-14'></div>
         <p className='font-outfit text-primary text-xs font-semibold tracking-widest'>
@@ -899,7 +899,8 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <hr className='my-20 border-gray-400' />
+      {/* <hr className='my-20 border-gray-400' /> */}
+      <hr className='my-20 text-[#D9D9D6]' />
     </section>
   )
 }
