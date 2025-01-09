@@ -56,7 +56,7 @@ export default function Pricing() {
 
               {/* Flooring & Tiles */}
               <AccordionItem value='item-2'>
-                <AccordionTrigger>Flooring and Tiles</AccordionTrigger>
+                <AccordionTrigger>Flooring & Tiles</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>Living, Dining: Vitrified tiles up to ₹60/sq.ft.</li>
@@ -228,7 +228,7 @@ export default function Pricing() {
               </AccordionItem>
 
               {/* Terms & Conditions */}
-              <AccordionItem value='item-12'>
+              <AccordionItem value='item-12' className='border-0'>
                 <AccordionTrigger>Terms & Conditions</AccordionTrigger>
                 <AccordionContent>
                   <p>
@@ -243,7 +243,7 @@ export default function Pricing() {
         </div>
 
         {/* Two */}
-        <div className='w-full relative'>
+        <div className='w-full'>
           <div className='flex items-center justify-between px-6 bg-white'>
             <div className='p-4'>
               <h2 className='text-2xl font-bold font-playfairDisplay tracking-wide'>
@@ -262,7 +262,7 @@ export default function Pricing() {
             <Accordion type='single' collapsible className='w-full'>
               {/* Design and Drawings */}
               <AccordionItem value='item-1'>
-                <AccordionTrigger>Design and Drawings</AccordionTrigger>
+                <AccordionTrigger>Design & Drawings</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>
@@ -284,7 +284,7 @@ export default function Pricing() {
 
               {/* Flooring and Tiles */}
               <AccordionItem value='item-2'>
-                <AccordionTrigger>Flooring and Tiles</AccordionTrigger>
+                <AccordionTrigger>Flooring & Tiles</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>
@@ -445,7 +445,7 @@ export default function Pricing() {
 
               {/* Doors and Windows */}
               <AccordionItem value='item-9'>
-                <AccordionTrigger>Doors and Windows</AccordionTrigger>
+                <AccordionTrigger>Doors & Windows</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>
@@ -530,8 +530,8 @@ export default function Pricing() {
                 </AccordionContent>
               </AccordionItem>
               {/* Terms and Conditions */}
-              <AccordionItem value='item-14'>
-                <AccordionTrigger>Terms and Conditions</AccordionTrigger>
+              <AccordionItem value='item-14' className='border-0'>
+                <AccordionTrigger>Terms & Conditions</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>The above cost includes all applicable taxes.</li>
@@ -568,7 +568,7 @@ export default function Pricing() {
         </div>
 
         {/* Three */}
-        <div className='w-full bg-white'>
+        <div className='w-full'>
           <div className='flex items-center justify-between px-6 bg-white'>
             <div className='p-4'>
               <h2 className='text-2xl font-bold font-playfairDisplay tracking-wide'>
@@ -608,7 +608,7 @@ export default function Pricing() {
               </AccordionItem>
 
               <AccordionItem value='item-2'>
-                <AccordionTrigger>Flooring and Tiles</AccordionTrigger>
+                <AccordionTrigger>Flooring & Tiles</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>Living/Dining: Vitrified tiles up to Rs 340/sqft</li>
@@ -751,7 +751,7 @@ export default function Pricing() {
               </AccordionItem>
 
               <AccordionItem value='item-9'>
-                <AccordionTrigger>Doors and Windows</AccordionTrigger>
+                <AccordionTrigger>Doors & Windows</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>Openings: Max 25% of built-up area</li>
@@ -832,8 +832,8 @@ export default function Pricing() {
                   </ul>
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value='item-15'>
-                <AccordionTrigger>Terms and Conditions</AccordionTrigger>
+              <AccordionItem value='item-15' className='border-0'>
+                <AccordionTrigger>Terms & Conditions</AccordionTrigger>
                 <AccordionContent>
                   <ul className='list-disc ml-4'>
                     <li>The above cost includes all applicable taxes.</li>
