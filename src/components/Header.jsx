@@ -52,7 +52,7 @@ export default function Header() {
         <img src={Image.ChhLogo} alt='Logo' width={58} className='' />
         <div className='hidden lg:block'>
           <p className='text-primary text-[1.25rem] font-bold'>
-            CENTER FOR HUMAN HABITAT
+            CENTRE FOR HUMAN HABITAT
           </p>
           <p className='text-[0.58rem] font-outfit text-center'>
             ARCHITECTS, ENGINEERS, INTERIOR DESIGNERS & CONSULTANTS
