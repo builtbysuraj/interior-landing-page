@@ -5,13 +5,13 @@ export default function Hero() {
     <section className='my-24'>
       <div className='mx-auto text-center my-20'>
         <h1 className='font-playfairDisplay text-6xl md:text-7xl font-medium text-textDark'>
-          Make <span className='font-playfairDisplay italic'>your home</span> an
-          ode to joy
+          Your key to{' '}
+          <span className='font-playfairDisplay italic'>Affordable </span>{' '}
+          Living
         </h1>
         <p className='font-outfit mt-6 max-w-[800px] mx-auto text-xl font-light text-textLight'>
-          We turn your empty house to a lovely home, making the compact spaces
-          with sapce saving furnitures. Making the unique tastes of yours into
-          reality!
+          Transforming empty houses into cozy homes with space-saving furniture
+          and personalized designs that reflect your unique taste!
         </p>
       </div>
       <div

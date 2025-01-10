@@ -66,17 +66,21 @@ export default function Gallery() {
             <img
               src={Image.Gallery2}
               alt=''
-              className='rounded-md max-w-[550px]'
+              className='rounded-md sm:max-w-[470px]'
             />
           </div>
         </div>
-        <hr className='my-5 border-gray-300' />
+        <hr className='my-5 border-gray-300 ' />
         {/* <hr className='my-20 text-hrColor' /> */}
 
         {/* Item 3 */}
         <div className='flex flex-col items-center gap-10 md:flex-row'>
           <div>
-            <img src={Image.Gallery3} alt='' className='rounded-md' />
+            <img
+              src={Image.Gallery3}
+              alt=''
+              className='rounded-md sm:max-w-[480px]'
+            />
           </div>
           <div>
             <h2 className='font-playfairDisplay text-4xl md:text-5xl font-normal py-5 '>

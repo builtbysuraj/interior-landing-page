@@ -52,10 +52,18 @@ export default function Footer() {
         <ContactForm />
       </div>
       <hr className='my-20 border-gray-300' />
-
-      <p className='text-center text-xs'>
-        © 2025 CHH - Architectural consultant. Made with ❤️ in Bangalore
-      </p>
+      <div className='flex items-center justify-between flex-wrap'>
+        <p className='text-center text-xs'>
+          © 2025 CHH - Architectural consultant.
+        </p>
+        <p className='text-center text-xs'>
+          Build your place without Breaking the Bank ❤️
+        </p>
+        <p className='text-center text-xs'>
+          Developed by <strong className='text-red-600'>Suraj</strong> &{' '}
+          <strong className='text-red-600'>Ashok</strong>
+        </p>
+      </div>
     </section>
   )
 }

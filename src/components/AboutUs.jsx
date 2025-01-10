@@ -3,10 +3,8 @@ import { Image } from '../utils/images'
 export default function AboutUs() {
   return (
     <section className='mx-auto my-20' id='about-us'>
-      {/* gap-10 */}
       <div className='flex items-center justify-between gap-4 flex-col lg:flex-row'>
-        {/* max-w-[600px] */}
-        <div className=' max-w-[800px] flex-1'>
+        <div className=' max-w-[600px] flex-1'>
           <div className='flex items-center gap-4 mb-6'>
             <div className='border-b border-primary w-14'></div>
             <p className='font-outfit text-primary text-xs font-semibold tracking-widest'>
@@ -40,18 +38,21 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-        {/* max-w-[600px] */}
-        <div className='flex gap-4 max-w-[400px]'>
-          <div className=''>
+        <div className='flex gap-4 max-w-[600px]'>
+          <div className='w-full max-w-[400px] sm:w-[500px] -mb-6'>
             <img
               src={Image.Abhi}
               alt=''
-              className='flex-1 mb-[-40px] object-contain rounded-md'
+              className='w-full h-auto object-contain rounded-md'
             />
           </div>
-          {/* <div className=''>
-            <img src={Image.AboutUs2} alt='' className='flex-1 mt-9' />
-          </div> */}
+          <div className='w-full max-w-[400px] sm:w-[500px]'>
+            <img
+              src={Image.AbhiDad}
+              alt=''
+              className='w-full h-auto mt-9 object-contain rounded-md'
+            />
+          </div>
         </div>
       </div>
     </section>

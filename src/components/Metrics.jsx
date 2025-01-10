@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const Counter = ({ target }) => {
   const [count, setCount] = useState(0)
