@@ -22,7 +22,7 @@ export default function Pricing() {
               <h2 className='text-2xl font-bold font-playfairDisplay tracking-wide'>
                 Basic Plan
               </h2>
-              <p>₹1600/sq.ft (Incl GST)</p>
+              <p>₹1600/sq.ft Onwards</p>
             </div>
             <div className='top-4 right-4'>
               <p className='bg-red-600 font-semibold px-4 py-1 rounded-full uppercase text-xs text-white'>
@@ -249,7 +249,7 @@ export default function Pricing() {
               <h2 className='text-2xl font-bold font-playfairDisplay tracking-wide'>
                 Standard Plan
               </h2>
-              <p>₹1800/sq.ft (Incl GST)</p>
+              <p>₹2000/sq.ft Onwards</p>
             </div>
             <div className='top-4 right-4'>
               <p className='bg-red-600 font-semibold px-4 py-1 rounded-full uppercase text-xs text-white'>
@@ -574,7 +574,7 @@ export default function Pricing() {
               <h2 className='text-2xl font-bold font-playfairDisplay tracking-wide'>
                 Premium Plan
               </h2>
-              <p>₹2000/sq.ft (Incl GST)</p>
+              <p>₹2600/sq.ft Onwards</p>
             </div>
             <div className='top-4 right-4'>
               <p className='bg-red-600 font-semibold px-4 py-1 rounded-full uppercase text-xs text-white'>
